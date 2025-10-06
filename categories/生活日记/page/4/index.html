@@ -1,0 +1,224 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>分类: 生活日记 | 青色空间</title><meta name="author" content="AFei"><meta name="copyright" content="AFei"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="记录生活，分享技术">
+<meta property="og:type" content="website">
+<meta property="og:title" content="青色空间">
+<meta property="og:url" content="https://it-dreamer.github.io/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/page/4/index.html">
+<meta property="og:site_name" content="青色空间">
+<meta property="og:description" content="记录生活，分享技术">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s1.imagehub.cc/images/2024/01/07/75b9a92c597e51d143d680e7342de6fc.jpeg">
+<meta property="article:author" content="AFei">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s1.imagehub.cc/images/2024/01/07/75b9a92c597e51d143d680e7342de6fc.jpeg"><script type="application/ld+json"></script><link rel="shortcut icon" href="https://s1.imagehub.cc/images/2024/01/07/bea88c66a92dd7b5b9f22046819c79da.th.png"><link rel="canonical" href="https://it-dreamer.github.io/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/page/4/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="stylesheet" href="/hexo-life/css/index.css?v=5.5.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/hexo-life/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '分类: 生活日记',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'category'
+}</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="web_bg" style="background-image: url(https://s1.imagehub.cc/images/2024/01/07/fa39a6ab1516dc5384749fd060a5196c.jpeg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://s1.imagehub.cc/images/2024/01/07/75b9a92c597e51d143d680e7342de6fc.jpeg" onerror="this.onerror=null;this.src='/hexo-life/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/hexo-life/archives/"><div class="headline">文章</div><div class="length-num">56</div></a><a href="/hexo-life/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/hexo-life/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/hexo-life/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/hexo-life/"><img class="site-icon" src="https://s1.imagehub.cc/images/2024/01/07/e5e4db2d11582519bca25c7afdf90fbf.png" alt="Logo"><span class="site-name">青色空间</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/hexo-life/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/hexo-life/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">生活日记</h1></div></header><main class="layout" id="content-inner"><div id="category"><div class="article-sort-title">分类 - 生活日记</div><div class="article-sort"><div class="article-sort-item year">2024</div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/5a0cb041.html" title="生活日记2024-1-20"><img src="https://s1.imagehub.cc/images/2024/01/20/75960253eaca1005f8b6abdb4e974c01.jpeg" alt="生活日记2024-1-20" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-20T14:03:24.000Z" title="发表于 2024-01-20 22:03:24">2024-01-20</time></div><a class="article-sort-item-title" href="/hexo-life/posts/5a0cb041.html" title="生活日记2024-1-20">生活日记2024-1-20</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/7ffa6bb0.html" title="生活日记2024-1-18"><img src="https://s1.imagehub.cc/images/2024/01/09/51d2527e854d27043aa272fa7acee89b.png" alt="生活日记2024-1-18" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-18T13:58:20.000Z" title="发表于 2024-01-18 21:58:20">2024-01-18</time></div><a class="article-sort-item-title" href="/hexo-life/posts/7ffa6bb0.html" title="生活日记2024-1-18">生活日记2024-1-18</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/bcd84360.html" title="生活日记2024-1-17"><img src="https://s1.imagehub.cc/images/2024/01/17/bbe30ee0f5e42d11d8f7721bb50f4cce.jpeg" alt="生活日记2024-1-17" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-17T15:07:16.000Z" title="发表于 2024-01-17 23:07:16">2024-01-17</time></div><a class="article-sort-item-title" href="/hexo-life/posts/bcd84360.html" title="生活日记2024-1-17">生活日记2024-1-17</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/984246b7.html" title="生活日记2024-1-16"><img src="https://s1.imagehub.cc/images/2024/01/16/b3d98e54ffe153566f7cae8ef4631e49.jpeg" alt="生活日记2024-1-16" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-16T14:57:09.000Z" title="发表于 2024-01-16 22:57:09">2024-01-16</time></div><a class="article-sort-item-title" href="/hexo-life/posts/984246b7.html" title="生活日记2024-1-16">生活日记2024-1-16</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/14b170d.html" title="生活日记2024-1-15"><img src="https://s1.imagehub.cc/images/2024/01/15/250ef2d4033b3bad428da28af7819ba6.jpeg" alt="生活日记2024-1-15" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-15T13:09:12.000Z" title="发表于 2024-01-15 21:09:12">2024-01-15</time></div><a class="article-sort-item-title" href="/hexo-life/posts/14b170d.html" title="生活日记2024-1-15">生活日记2024-1-15</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/25d112da.html" title="生活日记2024-1-14"><img src="https://s1.imagehub.cc/images/2024/01/14/a1b15907e338b61e560ff04efabbe6fc.jpeg" alt="生活日记2024-1-14" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-14T15:05:21.000Z" title="发表于 2024-01-14 23:05:21">2024-01-14</time></div><a class="article-sort-item-title" href="/hexo-life/posts/25d112da.html" title="生活日记2024-1-14">生活日记2024-1-14</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/e828b238.html" title="生活日记2024-1-13"><img src="https://s1.imagehub.cc/images/2024/01/13/5ff817fd7af5dd370a7ac45c462fc422.jpeg" alt="生活日记2024-1-13" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-13T14:49:32.000Z" title="发表于 2024-01-13 22:49:32">2024-01-13</time></div><a class="article-sort-item-title" href="/hexo-life/posts/e828b238.html" title="生活日记2024-1-13">生活日记2024-1-13</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/ccb2b7ef.html" title="生活日记2024-1-12"><img src="https://s1.imagehub.cc/images/2024/01/13/01387cd63817488ce9f17aa0e6a147be.jpeg" alt="生活日记2024-1-12" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-12T14:36:25.000Z" title="发表于 2024-01-12 22:36:25">2024-01-12</time></div><a class="article-sort-item-title" href="/hexo-life/posts/ccb2b7ef.html" title="生活日记2024-1-12">生活日记2024-1-12</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/626d314.html" title="生活日记2024-1-11"><img src="https://s1.imagehub.cc/images/2024/01/11/dae51aa4835d10cd18ee7aada50bdc88.jpeg" alt="生活日记2024-1-11" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-11T04:11:36.000Z" title="发表于 2024-01-11 12:11:36">2024-01-11</time></div><a class="article-sort-item-title" href="/hexo-life/posts/626d314.html" title="生活日记2024-1-11">生活日记2024-1-11</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/hexo-life/posts/22bcd6c3.html" title="生活日记2024-1-10"><img src="https://s1.imagehub.cc/images/2024/01/10/8f9e5795412d4f3f1e376da61efc97f0.jpeg" alt="生活日记2024-1-10" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-01-10T14:31:49.000Z" title="发表于 2024-01-10 22:31:49">2024-01-10</time></div><a class="article-sort-item-title" href="/hexo-life/posts/22bcd6c3.html" title="生活日记2024-1-10">生活日记2024-1-10</a></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/page/3/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/">1</a><span class="space">&hellip;</span><a class="page-number" href="/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/page/5/">5</a><a class="extend next" rel="next" href="/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/page/5/"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://s1.imagehub.cc/images/2024/01/07/75b9a92c597e51d143d680e7342de6fc.jpeg" onerror="this.onerror=null;this.src='/hexo-life/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">AFei</div><div class="author-info-description">记录生活，分享技术</div><div class="site-data"><a href="/hexo-life/archives/"><div class="headline">文章</div><div class="length-num">56</div></a><a href="/hexo-life/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/hexo-life/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/IT-dreamer"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/IT-dreamer" target="_blank" title="Github"><i class="fab fa-github" style="color: #hdhfbb;"></i></a><a class="social-icon" href="mailto:afeilovelife@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #hdhfbb;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/hexo-life/posts/4b0ab2b5.html" title="生活日记2024-5-27"><img src="https://s1.imagehub.cc/images/2024/05/27/660bc2734e1338d8defd2bbe9204c56e.jpeg" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'" alt="生活日记2024-5-27"/></a><div class="content"><a class="title" href="/hexo-life/posts/4b0ab2b5.html" title="生活日记2024-5-27">生活日记2024-5-27</a><time datetime="2024-05-27T10:57:31.000Z" title="发表于 2024-05-27 18:57:31">2024-05-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/hexo-life/posts/4c6776ac.html" title="生活日记2024-5-23"><img src="https://s1.imagehub.cc/images/2024/05/23/785647842996ff9835ad7aef60be6cfa.jpeg" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'" alt="生活日记2024-5-23"/></a><div class="content"><a class="title" href="/hexo-life/posts/4c6776ac.html" title="生活日记2024-5-23">生活日记2024-5-23</a><time datetime="2024-05-23T10:34:34.000Z" title="发表于 2024-05-23 18:34:34">2024-05-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/hexo-life/posts/d56e2716.html" title="生活日记2024-5-20"><img src="https://s1.imagehub.cc/images/2024/05/20/412aa8e7bc64968f28ab2ff87ea6d3c3.jpeg" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'" alt="生活日记2024-5-20"/></a><div class="content"><a class="title" href="/hexo-life/posts/d56e2716.html" title="生活日记2024-5-20">生活日记2024-5-20</a><time datetime="2024-05-20T10:50:31.000Z" title="发表于 2024-05-20 18:50:31">2024-05-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/hexo-life/posts/6027e176.html" title="生活日记2024-5-17"><img src="https://s1.imagehub.cc/images/2024/05/17/95ab83d4ccb0d84db4646a8560b6369d.jpeg" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'" alt="生活日记2024-5-17"/></a><div class="content"><a class="title" href="/hexo-life/posts/6027e176.html" title="生活日记2024-5-17">生活日记2024-5-17</a><time datetime="2024-05-17T10:13:57.000Z" title="发表于 2024-05-17 18:13:57">2024-05-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/hexo-life/posts/f92eb0cc.html" title="生活日记2024-5-14"><img src="https://s1.imagehub.cc/images/2024/05/14/6ab8fc4b327fa475af561b0c0558c8b3.jpeg" onerror="this.onerror=null;this.src='/hexo-life/img/404.jpg'" alt="生活日记2024-5-14"/></a><div class="content"><a class="title" href="/hexo-life/posts/f92eb0cc.html" title="生活日记2024-5-14">生活日记2024-5-14</a><time datetime="2024-05-14T10:53:16.000Z" title="发表于 2024-05-14 18:53:16">2024-05-14</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/hexo-life/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"><span class="card-category-list-name">技术分享</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/hexo-life/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E8%AE%B0/"><span class="card-category-list-name">生活日记</span><span class="card-category-list-count">49</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/hexo-life/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.1em; color: #999">计算机网络</a> <a href="/hexo-life/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" style="font-size: 1.1em; color: #999">网站搭建</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/hexo-life/archives/2024/05/">
+            <span class="card-archive-list-date">
+              五月 2024
+            </span>
+            <span class="card-archive-list-count">7</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/hexo-life/archives/2024/04/">
+            <span class="card-archive-list-date">
+              四月 2024
+            </span>
+            <span class="card-archive-list-count">10</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/hexo-life/archives/2024/03/">
+            <span class="card-archive-list-date">
+              三月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/hexo-life/archives/2024/02/">
+            <span class="card-archive-list-date">
+              二月 2024
+            </span>
+            <span class="card-archive-list-count">12</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/hexo-life/archives/2024/01/">
+            <span class="card-archive-list-date">
+              一月 2024
+            </span>
+            <span class="card-archive-list-count">26</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">56</div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-10-06T06:09:18.164Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By AFei</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.2.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.1</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/hexo-life/js/utils.js?v=5.5.1"></script><script src="/hexo-life/js/main.js?v=5.5.1"></script><div class="js-pjax"></div></div></body></html>
